@@ -1,56 +1,56 @@
-# US_Medical_Insurance
-This repository contains Python code for analysing U.S. medical insurance costs dataset. 
+<h1>US_Medical_Insurance</h1>
+<p>This repository contains Python code for analyzing U.S. medical insurance costs dataset.</p>
 
-The repository contains the following files:
-
+<h2>Table of Contents</h2>
 <ul>
-  <li><b>insurance.csv:</b> This is the dataset file containing information about U.S. medical insurance costs. It includes columns such as age, sex, BMI (Body Mass Index), number of children, smoker status, region, and charges.</li>
-  <li><b>analysis.ipynb:</b> This Notebook performs the analysis on the insurance dataset. It includes code for loading the data, computing descriptive statistics, creating visualizations, conducting inferential statistics (such as t-tests and ANOVA), and performing regression analysis to predict medical charges.</li>
+    <li><a href="#project-description">Project Description</a></li>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#credits">Credits</a></li>
 </ul>
 
+<h2 id="project-description">Project Description</h2>
+<p>This project analyzes the U.S. medical insurance costs dataset. It performs descriptive and inferential statistical analyses, and builds a regression model to predict medical charges. This aspect of coding is important as it teaches data handling, statistical analysis, and predictive modeling, which are essential skills in data science and analytics.</p>
 
-**Analysis.py Overview:**
-
+<h2 id="installation">Installation</h2>
+<p>To run this project locally, you need to have Python installed along with the following libraries:</p>
 <ul>
-  <li><b>Data Loading and Descriptive Statistics:</b>
-    <ul>
-      <li>The code loads the insurance dataset using Pandas and computes basic descriptive statistics such as mean, median, quartiles, standard deviation, and mode for the numerical variables.</li>
-      <li>Descriptive statistics are displayed in a user-friendly format.</li>
-    </ul>
-  </li>
-  <li><b>Visualizations:</b>
-    <ul>
-      <li>Histograms and box plots are created to visualize the distribution of medical charges and compare charges across different categories (e.g., smoker status, region).</li>
-    </ul>
-  </li>
-  <li><b>Inferential Statistics:</b>
-    <ul>
-      <li>Functionality is implemented to calculate confidence intervals for sample means.</li>
-      <li>T-tests and ANOVA are performed for group comparisons:
-        <ul>
-          <li>T-test compares charges between smokers and non-smokers.</li>
-          <li>ANOVA compares charges across different regions.</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li><b>Regression Analysis:</b>
-    <ul>
-      <li>Linear regression is conducted to predict medical charges based on predictors such as age, BMI, children, and smoker status.</li>
-      <li>The regression model's summary, actual vs. predicted charges scatter plot, and residuals vs. predicted charges plot are provided.</li>
-    </ul>
-  </li>
-  <li><b>Explanation:</b>
-    <ul>
-      <li>A brief explanation is included, highlighting the purpose and importance of each analysis conducted in the code.</li>
-    </ul>
-  </li>
+    <li>Pandas</li>
+    <li>NumPy</li>
+    <li>SciPy</li>
+    <li>Statsmodels</li>
+    <li>Seaborn</li>
+    <li>Matplotlib</li>
+</ul>
+<p>You can install these libraries using pip:</p>
+<pre><code>pip install pandas numpy scipy statsmodels seaborn matplotlib</code></pre>
+
+<h2 id="usage">Usage</h2>
+<p>After installing the required libraries, follow these steps to use the code:</p>
+<ul>
+    <li>Download the <b>insurance.csv</b> dataset and place it in the same directory as the Python script or Notebook.</li>
+    <li>Open the <b>analysis.ipynb</b> Notebook or run the <b>analysis.py</b> script.</li>
 </ul>
 
-**Running the Code:**
+<h3>Instructions for <b>analysis.ipynb</b>:</h3>
+<ol>
+    <li>Load the Notebook in your preferred environment (Jupyter, Colab, etc.).</li>
+    <li>Execute the cells sequentially to perform the analysis.</li>
+</ol>
 
-Ensure that Python and required libraries (Pandas, NumPy, SciPy, Statsmodels, Seaborn, Matplotlib) are installed.
-Download the insurance dataset ('insurance.csv') and place it in the same directory as the Python script.
-Execute the script to perform the analysis.
-Note:This code provides insights into medical insurance costs based on various factors but does not imply causation. Additional analysis may be required for deeper insights.
-Feel free to customize the code or incorporate additional analyses as needed.
+<h3>Instructions for <b>analysis.py</b>:</h3>
+<ol>
+    <li>Open a terminal or command prompt.</li>
+    <li>Navigate to the directory containing <b>analysis.py</b> and <b>insurance.csv</b>.</li>
+    <li>Run the script:</li>
+</ol>
+<pre><code>python analysis.py</code></pre>
+
+
+<h2 id="credits">Credits</h2>
+<p>This project was developed by Alice Liefgreen.</p>
+
+
+</body>
+</html>
+
